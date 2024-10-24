@@ -34,10 +34,10 @@ class Controller_User extends Controller_Base
             } 
     }
 
-     public function action_logout()
-     {
-        unset($_SESSION['user']);
-        $this->redirect('');
+    //  public function action_logout()
+    //  {
+    //     unset($_SESSION['user']);
+    //     $this->redirect('');
 
-     }
+    //  }
 }
